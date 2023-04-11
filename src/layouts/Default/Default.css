@@ -1,0 +1,12 @@
+header {
+    font-size: 40px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.main-page {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

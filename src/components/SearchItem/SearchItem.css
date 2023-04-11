@@ -1,0 +1,31 @@
+.search-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 518px;
+    min-width: 518px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(215, 240, 255);
+    cursor: pointer;
+    padding: 5px;
+}
+
+.search-item:hover{
+    border: 1px solid #777;
+}
+
+img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 5px;
+}

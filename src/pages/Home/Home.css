@@ -1,0 +1,36 @@
+.home-page {
+    position: relative;
+}
+
+#text-field{
+    width: 500px;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+}
+
+#find-button {
+    margin-left: 5px;
+    height: 57px;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.search-item-list {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.search-results{
+    
+}
